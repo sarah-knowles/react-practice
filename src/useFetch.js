@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useEffect, useState } from 'react';
 
 const useFetch = (url) => {
@@ -30,4 +30,4 @@ const useFetch = (url) => {
   }
 }
 
-export default useFetch();
+export default useFetch;

@@ -51,7 +51,7 @@ h2 {
   padding: 20px;
 }
 
-.deleteButton {
+.deleteButton .blog-details button {
   color: black !important;
   border-color: rgb(190, 190, 190);
   border-radius: 6px;
@@ -68,3 +68,17 @@ h2 {
 .preview:hover {
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 }
+
+a {
+  text-decoration: none;
+}
+
+.blog-details div {
+  margin: 20px;
+}
+/* 
+.blog-details button {
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+} */
